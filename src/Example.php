@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @internal
  */
-trait Example
+trait Example // @phpstan-ignore-line
 {
     /**
      * Example description.

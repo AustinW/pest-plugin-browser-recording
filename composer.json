@@ -13,7 +13,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "pestphp/pest": "^3.0.0",
+        "pestphp/pest": "^3.7.5",
         "pestphp/pest-plugin": "^3.0.0"
     },
     "autoload": {
@@ -25,7 +25,7 @@
         ]
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "^3.0.0"
+        "pestphp/pest-dev-tools": "^3.4.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
