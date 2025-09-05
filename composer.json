@@ -1,24 +1,45 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "pestphp/pest-plugin-browser-recording",
+    "description": "Interactive browser test recording for Pest - record user actions and automatically generate Pest test code",
+    "type": "library",
     "keywords": [
         "php",
         "framework",
         "pest",
-        "unit",
-        "test",
+        "browser",
         "testing",
-        "plugin"
+        "recording",
+        "automation",
+        "plugin",
+        "playwright",
+        "e2e",
+        "selenium",
+        "webdriver"
     ],
+    "homepage": "https://pestphp.com",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Pest Team",
+            "email": "team@pestphp.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pestphp/pest-plugin-browser-recording/issues",
+        "source": "https://github.com/pestphp/pest-plugin-browser-recording",
+        "docs": "https://pestphp.com/docs/plugins/browser-recording"
+    },
     "require": {
-        "php": "^8.3",
-        "pestphp/pest": "^4.0.0",
-        "pestphp/pest-plugin": "^4.0.0"
+        "php": "^8.2",
+        "nikic/php-parser": "^5.0",
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-browser": "^4.0",
+        "symfony/css-selector": "^7.3",
+        "symfony/dom-crawler": "^7.3"
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
+            "PestPluginBrowserRecording\\": "src/"
         },
         "files": [
             "src/Autoload.php"
