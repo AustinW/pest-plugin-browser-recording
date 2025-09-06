@@ -1,5 +1,5 @@
 {
-    "name": "pestphp/pest-plugin-browser-recording",
+    "name": "austinw/pest-plugin-browser-recording",
     "description": "Interactive browser test recording for Pest - record user actions and automatically generate Pest test code",
     "type": "library",
     "keywords": [
