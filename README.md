@@ -2,7 +2,7 @@
 
 **Interactive browser test recording for Pest v4** - Record user actions and automatically generate clean, maintainable Pest test code.
 
-[![Tests](https://github.com/your-username/pest-plugin-browser-recording/workflows/tests/badge.svg)](https://github.com/your-username/pest-plugin-browser-recording/actions)
+[![Tests](https://github.com/austinw/pest-plugin-browser-recording/workflows/tests/badge.svg)](https://github.com/austinw/pest-plugin-browser-recording/actions)
 [![Latest Stable Version](https://poser.pugx.org/pestphp/pest-plugin-browser-recording/v)](//packagist.org/packages/pestphp/pest-plugin-browser-recording)
 [![License](https://poser.pugx.org/pestphp/pest-plugin-browser-recording/license)](//packagist.org/packages/pestphp/pest-plugin-browser-recording)
 
@@ -295,7 +295,7 @@ Generated Test Code ← CodeGenerator ← SelectorStrategy ← Structured Action
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-username/pest-plugin-browser-recording.git
+git clone https://github.com/austinw/pest-plugin-browser-recording.git
 cd pest-plugin-browser-recording
 composer install
 vendor/bin/pest
