@@ -16,18 +16,17 @@
         "selenium",
         "webdriver"
     ],
-    "homepage": "https://pestphp.com",
+    "homepage": "https://austinw.dev",
     "license": "MIT",
     "authors": [
         {
-            "name": "Pest Team",
-            "email": "team@pestphp.com"
+            "name": "Austin White",
+            "email": "austingym@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/pestphp/pest-plugin-browser-recording/issues",
-        "source": "https://github.com/pestphp/pest-plugin-browser-recording",
-        "docs": "https://pestphp.com/docs/plugins/browser-recording"
+        "issues": "https://github.com/AustinW/pest-plugin-browser-recording/issues",
+        "source": "https://github.com/AustinW/pest-plugin-browser-recording"
     },
     "require": {
         "php": "^8.2",

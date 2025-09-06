@@ -18,7 +18,7 @@ This plugin extends Pest's browser testing capabilities with **interactive recor
 ### Installation
 
 ```bash
-composer require pestphp/pest-plugin-browser-recording --dev
+composer require austinw/pest-plugin-browser-recording --dev
 ```
 
 ### Requirements
